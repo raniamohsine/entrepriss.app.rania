@@ -1,0 +1,193 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #eef7ef, #f7faf8);
+    margin: 0;
+    color: #102033;
+}
+
+header {
+    background: white;
+    padding: 14px 28px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+nav strong {
+    color: #1f7a35;
+    font-size: 22px;
+    margin-right: auto;
+}
+
+nav a {
+    color: #102033;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+main {
+    max-width: 520px;
+    margin: 35px auto;
+    background: white;
+    padding: 26px;
+    border-radius: 34px;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+}
+
+h1 {
+    color: #145c25;
+    font-size: 26px;
+    margin-bottom: 22px;
+    line-height: 1.2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 22px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+th {
+    background: #e0f2df;
+    color: #145c25;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 15px;
+}
+
+.details-btn,
+button {
+    background: #2e7d32;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.details-btn:hover,
+button:hover {
+    background: #145c25;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 14px;
+    font-size: 15px;
+}
+
+footer  p {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+}
+
+.intro-text {
+    color: #64748b;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 24px;
+}
+
+.event-info {
+    background: #f4f8f4;
+    padding: 18px;
+    border-radius: 18px;
+    margin: 20px 0;
+}
+
+ .event-info p {
+     margin: 10px 0;
+ }
+
+.tagline {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+h1 {
+    color: #145c25;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #102033;
+    font-size: 20px;
+}
+
+.new-btn {
+    background: #2e7d32;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+ .new-btn:hover {
+     background: #145c25;
+ }
+nav a {
+    color: #1f7a35;
+}
+
+nav a:hover {
+    color: #145c25;
+}
+
+main {
+    padding: 32px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    color: #334155;
+    line-height: 1.5;
+}
+
+form label {
+    display: block;
+    font-weight: 600;
+    color: #145c25;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    background: #f9fafb;
+}
+
+textarea {
+    min-height: 90px;
+}
+
+form button {
+    margin-top: 18px;
+}

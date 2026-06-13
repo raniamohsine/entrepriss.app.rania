@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
 <header>
     <nav>
-        <strong>Anderlechtse NGO</strong>
+        <strong>🌿Anderlechtse NGO</strong>
 
         <a href="/">Home</a>
         <a href="/new">Nieuw evenement</a>
@@ -16,12 +17,27 @@
         <a href="/contact">Contact</a>
     </nav>
 </header>
+    <main>
+        <h1>Neem contact op</h1>
 
-<main>
-    <h1>Contact pagina</h1>
+        <p class="intro-text">
+            Heb je een vraag, wil je vrijwilliger worden of wil je een activiteit voorstellen?
+            Stuur ons gerust een bericht.
+        </p>
 
-    <p>Hier kunnen bezoekers een bericht sturen naar de administrators.</p>
-</main>
+        <form>
+            <label>Naam</label><br>
+            <input type="text" placeholder="Jouw naam"><br><br>
+
+            <label>E-mail</label><br>
+            <input type="email" placeholder="jouw@email.be"><br><br>
+
+            <label>Bericht</label><br>
+            <textarea rows="5" placeholder="Schrijf hier je bericht..."></textarea><br><br>
+
+            <button type="submit">Bericht verzenden</button>
+        </form>
+    </main>
 
 <footer>
     <p>&copy; 2026 Anderlechtse NGO</p>

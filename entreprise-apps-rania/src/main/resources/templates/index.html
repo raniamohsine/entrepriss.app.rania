@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Anderlechtse NGO</title>
+
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
 <header>
     <nav>
-        <strong>Anderlechtse NGO</strong>
+        <strong>🌿Anderlechtse NGO</strong>
 
         <a href="/">Home</a>
         <a href="/new">Nieuw evenement</a>
@@ -18,13 +20,37 @@
 </header>
 
 <main>
-    <h1>Welkom bij de Anderlechtse NGO</h1>
+    <p class="tagline">Samen voor de buurt</p>
 
-    <p>Dit is de startpagina van het project.</p>
+    <h1>Evenementen</h1>
+
+    <table>
+        <tr>
+            <th>Titel</th>
+            <th>Organisatie</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>Buurfeest</td>
+            <td>Anderlechtse</td>
+            <td><a href="/details" class="details-btn">Details</a></td>
+        </tr>
+
+        <tr>
+            <td>Voedselactie</td>
+            <td>Partner VZW</td>
+            <td><a href="/details" class="details-btn">Details</a></td>
+        </tr>
+    </table>
+
+    <a href="/new">
+        <button class="new-btn">Nieuw evenement</button>
+    </a>
 </main>
 
 <footer>
-    <p>&copy; 2026 Anderlechtse NGO</p>
+                <p>&copy; 2026 Anderlechtse NGO</p>
 </footer>
 
 </body>
