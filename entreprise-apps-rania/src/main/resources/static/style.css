@@ -6,11 +6,14 @@ body {
 }
 
 header {
-    background: white;
+    background: rgba(255, 255,255,0.75);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
     padding: 14px 28px;
-    box-shadow: 0 2px 14px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 nav {
@@ -37,7 +40,7 @@ nav a {
 main {
     max-width: 520px;
     margin: 35px auto;
-    background: white;
+    background: #fafafa;
     padding: 26px;
     border-radius: 34px;
     box-shadow: 0 18px 45px rgba(0,0,0,0.12);
@@ -149,7 +152,7 @@ h2 {
     display: inline-block;
 }
  .new-btn:hover {
-     background: #145c25;
+     background: #e7f5e7;
  }
 nav a {
     color: #1f7a35;
@@ -190,4 +193,43 @@ textarea {
 
 form button {
     margin-top: 18px;
+}
+
+.logo-subtitle{
+    font-size:12px;
+    color:#7b8794;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    width: 260px;
+    height: 260px;
+    background: #b7e4c7;
+    border-radius: 50%;
+    top: 90px;
+    left: -80px;
+    filter: blur(55px);
+    opacity: 0.55;
+    z-index: -1;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    width: 220px;
+    height: 220px;
+    background: #d8f3dc;
+    border-radius: 50%;
+    bottom: 80px;
+    right: -70px;
+    filter: blur(50px);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
 }

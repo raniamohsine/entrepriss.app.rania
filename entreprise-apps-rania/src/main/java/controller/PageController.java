@@ -30,4 +30,14 @@ public class PageController {
     public String details() {
         return "details";
     }
+
+    @GetMapping("/details-buurfeest")
+    public String detailsBuurfeest() {
+        return "details-buurfeest";
+    }
+
+    @GetMapping("/details-voedselactie")
+    public String detailsVoedselactie() {
+        return "details-voedselactie";
+    }
 }
